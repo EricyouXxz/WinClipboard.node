@@ -1,0 +1,1 @@
+[][]["E:\testCode\WinClipboard\WinClipboard\ClipboadData.txt","E:\testCode\WinClipboard\WinClipboard\WinClipboard.vcxproj","E:\testCode\WinClipboard\WinClipboard\WinClipboard.vcxproj.filters","E:\testCode\WinClipboard\WinClipboard\WinClipboard.vcxproj.user"]
