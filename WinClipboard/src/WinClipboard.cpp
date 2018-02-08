@@ -46,6 +46,10 @@ namespace rlairNodeAddon{
 			if (hDrop)
 			{
 				cFiles = DragQueryFile(hDrop, (UINT)-1, NULL, 0);
+				if (cFiles > 10)	//限制最多返回10个文件的路径
+				{
+					cFiles = 10;
+				}
 
 				TCHAR szBuffer[MAX_PATH * uSupportFileAmmount];
 				memset(szBuffer, 0, sizeof(szBuffer));
